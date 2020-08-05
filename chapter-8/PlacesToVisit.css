@@ -1,0 +1,26 @@
+#visit ol li, ul li 
+{
+	font-family:Times New Roman; 
+	font-size:24px; 
+}
+#visit ol li em 
+{ 
+	color:blue;  
+	display:block; 
+	font-size:18px; 
+	font-style:bold; 
+}
+#visit ul li em 
+{ 
+	color:green;  
+	display:block; 
+	font-size:18px; 
+	font-style:bold; 
+}
+#visit ol li p, ul li p 
+{ 
+	color:gray; 
+	font-family:Arial; 
+	font-size:14px; 
+	font-style:normal; 
+}
