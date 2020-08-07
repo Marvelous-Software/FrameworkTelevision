@@ -1,5 +1,10 @@
-a:link, a:visited 
+img 
 { 
-	color:brown; 
-	font-style:italic; 
+	height: 300;
+	width: 400; 
+}
+
+video 
+{ 
+	
 }
