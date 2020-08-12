@@ -1,0 +1,14 @@
+body {
+    background-color: #99ccff;
+}
+label {
+    display: inline-block;
+    width:100px;
+    text-align: right;
+}
+.clear {
+    background-color: #ff0000;
+}
+.submit {
+    background-color: #ff0000;
+}
