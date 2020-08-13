@@ -6,9 +6,13 @@ label {
     width:100px;
     text-align: right;
 }
-.clear {
-    background-color: #ff0000;
+.buttons {
+    font-size: 1em;
+    font-weight: bold
 }
-.submit {
+#submit {
+    background-color: #03fc2c;
+}
+#reset {
     background-color: #ff0000;
 }
