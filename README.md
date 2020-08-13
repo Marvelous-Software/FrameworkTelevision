@@ -1,1 +1,1 @@
-# ltp-html5-specialist
+# ltp-html5-authoring
