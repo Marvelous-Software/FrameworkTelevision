@@ -1,0 +1,11 @@
+#container {
+ 	display: flex;
+}
+h1 {
+	
+}
+
+img.pic {
+	width: 250px;
+	height: 250px;
+}

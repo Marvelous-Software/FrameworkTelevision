@@ -1,0 +1,14 @@
+img 
+{ 
+	height: 300px;
+	width: 400px; 
+}
+
+video 
+{ 
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+	height: 600px;
+	width: 800px; 
+}
