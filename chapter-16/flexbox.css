@@ -1,7 +1,6 @@
-#container {
+.row {
  	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 }
 h1 { 
 	background-color: #15154d;
@@ -12,6 +11,7 @@ h1 {
 	font-family: TimesNewRoman;
 	font-size: .75em;
 	padding: 10px;
+	width: 275px;
 }
 img.pic {
 	width: 250px;

@@ -1,0 +1,48 @@
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2em;
+}
+
+.content {
+    float: left;
+    width: 30%;
+}
+
+.notfirst {
+    border-left: 2px solid black;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.picture {
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+footer
+{
+    clear: both;
+    border-top: 1px solid black;
+ }
+
+ @media only screen and (max-width: 600px) {
+    .content {
+        float: none;
+        width: 95%;
+    }
+    .notfirst {
+        border: none;
+        margin: none;
+        padding: none;
+    }
+     .picture {
+         float: none;
+         width: 100%;
+    }
+}
+
