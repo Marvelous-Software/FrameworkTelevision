@@ -1,0 +1,16 @@
+/* all headings will be styled the same */
+h1, h2, h3 {
+    background-color: lightblue;
+}
+/* city list */
+ul > li > p {
+    background-color: yellow;
+}
+p > a {
+    background-color: orange;    
+}
+/* US cities will be green */
+.US {
+    color: green;
+}
+ 

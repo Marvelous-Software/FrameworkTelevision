@@ -1,1 +1,0 @@
-# ltp-html5-authoring
