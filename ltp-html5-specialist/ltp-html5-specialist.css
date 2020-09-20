@@ -1,0 +1,17 @@
+ol, ul {
+	float: left;
+}
+
+img.pic {
+	padding: 5px;
+}
+@media only screen and (max-width: 800px) {
+
+	img.pic {
+         float: none;
+         width: 100%;
+	}
+	ol, ul {
+		float: none;
+	}
+}

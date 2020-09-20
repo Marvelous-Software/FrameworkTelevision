@@ -1,0 +1,20 @@
+body {
+    background-image: url("Graphics/background alt1 copy.png");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Ranchers';
+}
+
+ul {
+    list-style-type: square;
+}
+
+ .submenu ul {
+    display: none;
+}
+
+ .submenu:hover ul{
+    display: block;
+}

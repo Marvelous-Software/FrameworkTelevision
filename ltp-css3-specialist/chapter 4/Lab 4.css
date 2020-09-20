@@ -1,0 +1,19 @@
+h1 {
+    background-color: red;
+    height: 50px;
+    width: 300px;
+}
+h1:hover {
+    -webkit-animation: colorChange 10s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes colorChange {
+    0% {background-color: red;}
+    16% {background-color: blue;}
+    33% {background-color: yellow;}
+    50% {background-color: green;}
+    67% {background-color: orange;}
+    83% {background-color: purple;}
+    100% {background-color: red;}
+}

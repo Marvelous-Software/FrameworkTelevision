@@ -1,0 +1,15 @@
+.image {
+    border: 10PX dashed blue;
+    border-color: blue, red;
+    border-style: dashed;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline-color: yellow;
+    outline-style: groove;
+    outline-width: 25px;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
