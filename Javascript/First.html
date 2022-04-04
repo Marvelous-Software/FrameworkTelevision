@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>First Javascript</title>
+    </head>
+    <style>
+        #touchTarget
+        {
+            background-color: red;
+            color: white;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <script>
+        window.onload = function()
+        {
+            document.getElementById("touchTarget").addEventListener("click", respond);
+        }
+
+        function respond(e)
+        {
+            //alert("You clicked me!");
+            //document.getElementById("touchTarget").style.display = "none";
+            document.getElementById("touchTarget").style.width = 400;
+            document.getElementById("touchTarget").style.height = 400;
+        }
+       </script>
+    <body>
+        <div id="touchTarget"><h1>Touch Me!</h1></div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second Javascript</title>
+
+        <!--Fixes the  "GET http://127.0.0.1:5500/favicon.ico" not found
+        https://stackoverflow.com/questions/31075893/im-getting-favicon-ico-error/-->
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+        <script>
+
+            document.write("bad practice");
+
+
+            window.onload = function()
+            {
+                document.getElementById("one").innerHTML="<h1>Welcome to my world!</h1>";
+                document.getElementById("myButton").addEventListener("click", SetHeading2);
+            }
+
+            function SetHeading2(e)
+            {
+                document.getElementById("two").innerHTML+="<br><h2>Javascript specialist.</h2>";
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <div id="one">
+           
+        </div>
+        <div id="two">
+            <h2>What are you studying?</h2>
+        </div>
+        <button id='myButton'>Press me</button>
+    </body>
+
+</html>

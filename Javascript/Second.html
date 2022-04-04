@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Second Javascript</title>
+
+        <script src="Second.js"></script>
+        <script>
+            window.addEventListener('load', AddClick2)
+
+            function AddClick2()
+            {
+                document.getElementById("button2").addEventListener("click", respond);
+            }
+
+            function respond(e)
+            {
+                alert("getting better");
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <h1>The quick brown fox jumps over the lazy dogs</h1>
+        <button onclick='alert("bad practice");'>Inline</button>
+        <button id='button2'>Script tag</button>
+        <button id='button3'>Separate file</button>
+    </body>
+
+</html>

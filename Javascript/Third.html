@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second Javascript</title>
+
+        <script>
+            window.onload = function()
+            {
+                document.getElementById("myButton").addEventListener("click", respond);
+            }
+
+            window.onclick = function()
+            {
+                alert("Window");
+            }
+
+            function respond(e)
+            {
+                alert("button");
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <button id='myButton'>Press me</button>
+    </body>
+
+</html>

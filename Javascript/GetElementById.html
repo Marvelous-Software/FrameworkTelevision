@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second Javascript</title>
+
+        <!--Fixes the  "GET http://127.0.0.1:5500/favicon.ico" not found
+        https://stackoverflow.com/questions/31075893/im-getting-favicon-ico-error/-->
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+        <script>
+
+            window.onload = function()
+            {
+                document.getElementById("content").addEventListener("click", Content);
+                document.getElementById("one").addEventListener("click", First);
+                document.getElementById("two").addEventListener("click", Second);
+            }
+
+            function Content(e)
+            {
+                console.log("Content clicked.");
+            }
+            function First(e)
+            {
+                console.log("One clicked.");
+                document.getElementById("one").style.color="red";
+                document.getElementById("one").innerHTML+="&ltclick&gt";
+            }
+            function Second(e)
+            {
+                console.log("Two clicked.");
+                document.getElementById("two").style.color="blue";
+                document.getElementById("two").innerHTML+="&ltclick&gt";
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <div id="content">
+            <p id="one">This is paragraph one.</p>
+            <p id="two">This is paragraph two.</p>
+        </div>
+
+    </body>
+
+</html>
