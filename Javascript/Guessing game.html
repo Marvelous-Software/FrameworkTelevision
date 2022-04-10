@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guessing game</title>
+
+        <script>
+
+            var guessCount = 1;
+            var number = Math.floor(Math.random() * 100) + 1;
+
+
+            window.onload = function()
+            {
+                document.getElementById('submitGuess').addEventListener("click", processGuess);
+            }
+
+            function processGuess(e)
+            {
+                var button = document.getElementById('submitGuess')
+                var currentGuess;
+
+
+                guessCount++;
+                currentGuess = document.getElementById('guess').value;
+                if (currentGuess == number) 
+                {
+                    alert("You win!!");
+                    submitGuess.style.display = "none";
+                }
+                else if (guessCount > 7)
+                {
+                    alert("You lose.  The number was " + number);
+                    submitGuess.style.display = "none";
+                }
+                else if (currentGuess > number)
+                {
+                    document.getElementById('history').innerHTML += currentGuess + " is too big.  Try again.<br>";
+                }
+                else if (currentGuess < number)
+                {
+                    document.getElementById('history').innerHTML += currentGuess + " is too small.  Try again.<br>";
+                }
+                if (submitGuess.display != "none")
+                {
+                    document.getElementById('prompt').innerHTML = "What is your guess #" + guessCount; 
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <h1>Guess the number</h1>
+        <p>I will make up a number between 1 and 100.  You will have 7 guesses to guess the number</p>
+        <div>
+            <p id="history"></p>
+            <p id="prompt">What is your guess # 1</p>
+            <input id="guess" type="text">
+            <button id="submitGuess">Guess</button>
+            <p id="result"></p>
+        </div>
+
+    </body>
+
+</html>
